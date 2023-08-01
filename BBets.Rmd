@@ -140,3 +140,5 @@ The average earning Brownlow is making is about 281. 95% confidence interval is 
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+We created a different branch for each major section as well as created an introduction, method, results, inference results, and a conclusion. You would have to change the odds until you find a number that can get close to zero. 
+
