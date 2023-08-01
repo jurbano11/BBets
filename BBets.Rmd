@@ -80,6 +80,31 @@ varstor=numeric()
   
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
 
+```{r}
+
+brownlow <- array(100)
+
+for (i in 1:100) {
+
+  brownlow[i] <- BrLw()
+
+}
+
+ 
+
+```
+
+
+```{r}
+
+sorted_brownlow <- sort(brownlow)
+
+plot(sorted_brownlow, type = "l", xlab = "Index", ylab = "Value",
+
+     main = "Line Plot of Brownlow Numerical Vector")
+
+```
+
 
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
 
