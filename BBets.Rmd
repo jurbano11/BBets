@@ -110,6 +110,30 @@ plot(sorted_brownlow, type = "l", xlab = "Index", ylab = "Value",
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+```{r}
+brownlow <- array(100)
+```
+
+```{r}
+
+brownlow <- array(100)
+
+for (i in 1:100) {
+
+  brownlow[i] <- BrLw()
+
+}
+
+ 
+
+```
+
+
+```{r}
+favstats(sorted_brownlow)
+```
+The average earning Brownlow is making is about 281. 95% confidence interval is 2 standard deviations below the mean and 2 standard deviations above the mean. Those numbers are between 210 and 350 for above
+
 
 
 # Discussion and Conclusion
