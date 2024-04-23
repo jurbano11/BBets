@@ -129,12 +129,20 @@ for (i in 1:100) {
 ```
 
 
+
 ```{r}
 favstats(sorted_brownlow)
 ```
 The average earning Brownlow is making is about 281. 95% confidence interval is 2 standard deviations below the mean and 2 standard deviations above the mean. Those numbers are between 210 and 350 for above
 
 
+```{r}
+myBrLw3 <- numeric(400)
+for(i in 1:400){
+  myBrLw3[i]=BrLw(numClass = 29)}
+hist(myBrLw3)
+```
+For Brownlow's original bet, a class size of 28.9 seems to be the right class size for the odds to work. 
 
 # Discussion and Conclusion
 
